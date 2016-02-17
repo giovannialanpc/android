@@ -86,6 +86,9 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
+    /*
+    *  RESET THE SCORE THE TEAM A AND B
+     */
     public void reset(View view){
         scoreTeamA = 0;
         scoreTeamB = 0;
